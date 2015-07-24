@@ -1,0 +1,273 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D361F0121B623A7E004732F3 /* MengscreenView.h in Headers */ = {isa = PBXBuildFile; fileRef = D361F0111B623A7E004732F3 /* MengscreenView.h */; };
+		D361F0141B623A7E004732F3 /* MengscreenView.m in Sources */ = {isa = PBXBuildFile; fileRef = D361F0131B623A7E004732F3 /* MengscreenView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D361F00C1B623A7E004732F3 /* Mengscreen.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Mengscreen.saver; sourceTree = BUILT_PRODUCTS_DIR; };
+		D361F0101B623A7E004732F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D361F0111B623A7E004732F3 /* MengscreenView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MengscreenView.h; sourceTree = "<group>"; };
+		D361F0131B623A7E004732F3 /* MengscreenView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MengscreenView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D361F0081B623A7E004732F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D361F0021B623A7E004732F3 = {
+			isa = PBXGroup;
+			children = (
+				D361F00E1B623A7E004732F3 /* Mengscreen */,
+				D361F00D1B623A7E004732F3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D361F00D1B623A7E004732F3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D361F00C1B623A7E004732F3 /* Mengscreen.saver */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D361F00E1B623A7E004732F3 /* Mengscreen */ = {
+			isa = PBXGroup;
+			children = (
+				D361F0111B623A7E004732F3 /* MengscreenView.h */,
+				D361F0131B623A7E004732F3 /* MengscreenView.m */,
+				D361F00F1B623A7E004732F3 /* Supporting Files */,
+			);
+			path = Mengscreen;
+			sourceTree = "<group>";
+		};
+		D361F00F1B623A7E004732F3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D361F0101B623A7E004732F3 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D361F0091B623A7E004732F3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D361F0121B623A7E004732F3 /* MengscreenView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D361F00B1B623A7E004732F3 /* Mengscreen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D361F0171B623A7E004732F3 /* Build configuration list for PBXNativeTarget "Mengscreen" */;
+			buildPhases = (
+				D361F0071B623A7E004732F3 /* Sources */,
+				D361F0081B623A7E004732F3 /* Frameworks */,
+				D361F0091B623A7E004732F3 /* Headers */,
+				D361F00A1B623A7E004732F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Mengscreen;
+			productName = Mengscreen;
+			productReference = D361F00C1B623A7E004732F3 /* Mengscreen.saver */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D361F0031B623A7E004732F3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = mengma;
+				TargetAttributes = {
+					D361F00B1B623A7E004732F3 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+				};
+			};
+			buildConfigurationList = D361F0061B623A7E004732F3 /* Build configuration list for PBXProject "Mengscreen" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D361F0021B623A7E004732F3;
+			productRefGroup = D361F00D1B623A7E004732F3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D361F00B1B623A7E004732F3 /* Mengscreen */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D361F00A1B623A7E004732F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D361F0071B623A7E004732F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D361F0141B623A7E004732F3 /* MengscreenView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D361F0151B623A7E004732F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		D361F0161B623A7E004732F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D361F0181B623A7E004732F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Mengscreen/Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = saver;
+			};
+			name = Debug;
+		};
+		D361F0191B623A7E004732F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Mengscreen/Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = saver;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D361F0061B623A7E004732F3 /* Build configuration list for PBXProject "Mengscreen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D361F0151B623A7E004732F3 /* Debug */,
+				D361F0161B623A7E004732F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D361F0171B623A7E004732F3 /* Build configuration list for PBXNativeTarget "Mengscreen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D361F0181B623A7E004732F3 /* Debug */,
+				D361F0191B623A7E004732F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D361F0031B623A7E004732F3 /* Project object */;
+}
