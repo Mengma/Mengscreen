@@ -7,7 +7,11 @@
 //
 
 #import <ScreenSaver/ScreenSaver.h>
+#import <WebKit/WebKit.h>
 
 @interface MengscreenView : ScreenSaverView
+{
+    WebView *webView;
+}
 
 @end

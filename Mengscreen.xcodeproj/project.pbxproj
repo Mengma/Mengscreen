@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		D361F0121B623A7E004732F3 /* MengscreenView.h in Headers */ = {isa = PBXBuildFile; fileRef = D361F0111B623A7E004732F3 /* MengscreenView.h */; };
 		D361F0141B623A7E004732F3 /* MengscreenView.m in Sources */ = {isa = PBXBuildFile; fileRef = D361F0131B623A7E004732F3 /* MengscreenView.m */; };
+		D361F01B1B623E70004732F3 /* assets in Resources */ = {isa = PBXBuildFile; fileRef = D361F01A1B623E70004732F3 /* assets */; };
+		D361F01D1B623FA3004732F3 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = D361F01C1B623FA3004732F3 /* index.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -16,6 +18,8 @@
 		D361F0101B623A7E004732F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D361F0111B623A7E004732F3 /* MengscreenView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MengscreenView.h; sourceTree = "<group>"; };
 		D361F0131B623A7E004732F3 /* MengscreenView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MengscreenView.m; sourceTree = "<group>"; };
+		D361F01A1B623E70004732F3 /* assets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = assets; sourceTree = "<group>"; };
+		D361F01C1B623FA3004732F3 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +54,8 @@
 			children = (
 				D361F0111B623A7E004732F3 /* MengscreenView.h */,
 				D361F0131B623A7E004732F3 /* MengscreenView.m */,
+				D361F01C1B623FA3004732F3 /* index.html */,
+				D361F01A1B623E70004732F3 /* assets */,
 				D361F00F1B623A7E004732F3 /* Supporting Files */,
 			);
 			path = Mengscreen;
@@ -131,6 +137,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D361F01B1B623E70004732F3 /* assets in Resources */,
+				D361F01D1B623FA3004732F3 /* index.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
